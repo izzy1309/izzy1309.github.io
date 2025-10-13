@@ -56,6 +56,10 @@ git --version
 </html>
 ```
 
+### 5. Enable GitHub Pages
 
-
-
+Go to the repository → Settings → Pages (on the sidebar).
+1. Under “Source”, choose “Deploy from a branch.”
+2. Choose the main branch, and / (root) folder.
+3. Click “Save.”
+4. Wait a few minutes — the website will appear at https://izzy1309.github.io
