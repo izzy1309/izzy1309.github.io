@@ -1,0 +1,27 @@
+---
+---
+
+/* Reduce the vertical spacing in the site header (title + description) */
+.site-header {
+  padding-top: 0.75rem; /* default ~1.5rem -> halve it */
+  padding-bottom: 0.75rem;
+}
+
+.site-title {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.6rem; /* slightly smaller if desired */
+}
+
+.site-description {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  line-height: 1.1;
+  font-size: 0.95rem;
+}
+
+/* If the theme uses a large hero area, shrink it */
+.hero {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
