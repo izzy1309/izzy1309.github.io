@@ -63,3 +63,24 @@ Go to the repository → Settings → Pages (on the sidebar).
 2. Choose the main branch, and / (root) folder.
 3. Click “Save.”
 4. Wait a few minutes — the website will appear at https://izzy1309.github.io
+
+### 6. Addd jekyll theme to the website
+
+1. Add _config.yml to the root folder of the repository
+2. Copy the following to the file
+```yaml
+title: Izzy's notes
+description: Welcome to Izzy GitHub Pages site!
+theme: jekyll-theme-cayman
+```
+3. Use git to push to the repository
+```shell
+# Add the change to the staging
+git add .
+
+# Commit the changes to local repository
+git commit -m "Add jekyll-theme-cayman"
+
+# Push the changes from local repository to remote repository (on github)
+git push
+```
